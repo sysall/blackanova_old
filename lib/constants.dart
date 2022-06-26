@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 Color gradientZero = Color(0xFF8A4F19);
 Color gradientFirst = Color(0xFFAA5401);
@@ -20,4 +21,17 @@ BoxDecoration homeBodyDecoration = BoxDecoration(
           gradientFourth,
           gradientEnd
         ])
+);
+
+// Repeated code for TextField in login section
+const kTextFiledInputDecoration = InputDecoration(
+  focusedBorder: UnderlineInputBorder(
+    borderSide: BorderSide(color: Colors.black),
+  ),
+  enabledBorder: UnderlineInputBorder(
+    borderSide: BorderSide(color: Colors.grey, width: 2),
+  ),
+  labelText: " Email address",
+  labelStyle:
+  TextStyle(color: Colors.grey, fontSize: 14, fontWeight: FontWeight.w400),
 );
