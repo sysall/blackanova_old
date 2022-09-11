@@ -19,11 +19,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
   int i = 0;
 
-/*
-Instagram: @CodeWithFlexz
-Github: AmirBayat0
-Youtube: Programming with Flexz
-*/
   @override
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
